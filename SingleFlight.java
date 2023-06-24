@@ -10,6 +10,8 @@ import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.ExecutionException;
 
 /**
+ * Work on top of https://github.com/phicode/philib/blob/master/src/main/java/ch/bind/philib/concurrent/SingleFlight.java.
+ 
  * SingleFlight implements call deduplication for equal keys.
  * <p/>
  * Example:
